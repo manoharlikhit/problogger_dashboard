@@ -1,0 +1,18 @@
+.menuitems{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menuitems div{
+    margin-top: 1.5rem;
+}
+.menuitems div{
+    font-size: 1.5rem;
+}
+.menu{
+    grid-row-start: span 3;
+}
+h1{
+    margin-top: 1.5rem;
+}
