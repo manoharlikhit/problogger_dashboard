@@ -6,3 +6,29 @@ a{
     text-decoration: none;
     color: black;
 }
+#create_form{
+    display: flex;
+    flex-direction: column;
+}
+#create_form input{
+    margin: 10px 0px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+} 
+#createbtn{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #FC819E;
+    cursor: pointer;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    transition: 0.8s;
+}
+#createbtn:hover{
+    background-color: #B74B76;
+    transition: 0.8s;
+    color: aliceblue;
+}
